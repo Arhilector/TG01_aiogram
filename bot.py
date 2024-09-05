@@ -40,6 +40,7 @@ async def ask_city(message: types.Message):
     await message.answer("Скажи на английском или на русском языке название города, в котором хочешь узнать погоду?")
 
 
+
 # Обработка ввода города
 @dp.message_handler()
 async def send_weather(message: types.Message):
@@ -66,3 +67,4 @@ def get_weather(city: str) -> str:
 # Запуск бота
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+

@@ -1,6 +1,0 @@
-
-# Telegram API Token
-TELEGRAM_TOKEN = "7481041644:AAHnG6VijxchkpdlH9Nb-jQxqAgY341L4vc"
-
-# OpenWeatherMap API Key
-OPENWEATHER_API_KEY = 'a7ddc312a9582b7bbf06331c505fad3c'
